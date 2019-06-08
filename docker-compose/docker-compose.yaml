@@ -1,0 +1,7 @@
+nodehackday:
+  restart: always
+  build: ../node/
+  ports:
+    - "4000:4000"
+
+  container_name: node_hackday
